@@ -145,8 +145,8 @@ class _ProductDetasilsState extends State<ProductDetasils> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) =>
-                          AddToCartScreen()), // Replace with actual screen
+                    builder: (context) => ItemsGridScreen(),
+                  ), // Replace with actual screen
                 );
               },
             ),
