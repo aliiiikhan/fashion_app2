@@ -43,7 +43,7 @@ class _ItemsGridScreenState extends State<ItemsGridScreen> {
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, // 2 items per row
+          crossAxisCount: 3, // 2 items per row
           childAspectRatio: 0.75, // Adjust the aspect ratio for images
         ),
         itemCount: items.length,
